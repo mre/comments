@@ -12,7 +12,7 @@ except IOError:
 # line, it's possible required libraries won't be in your searchable path
 #
 
-from main import app as application
+from todoapp import app as application
 
 """
 def application(environ, start_response):
