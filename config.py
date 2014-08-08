@@ -2,7 +2,7 @@
 
 class Configuration(object):
     DATABASE = {
-        'name': 'example.db',
+        'name': '../data/example.db',
         'engine': 'peewee.SqliteDatabase',
         'check_same_thread': False,
     }
